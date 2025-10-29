@@ -1,7 +1,7 @@
 backstage:
   ingress:
     enabled: true
-    host: backstage.demo.demo.kubrix.dev
+    host: backstage.demo.kubrix.dev
     className: nginx
     annotations:
       external-dns.alpha.kubernetes.io/ttl: "60"
@@ -36,7 +36,7 @@ backstage:
     appConfig:
       app:
         title: kubriX OSS
-        baseUrl: https://backstage.demo.demo.kubrix.dev
+        baseUrl: https://backstage.demo.kubrix.dev
 
       organization:
         name: kubriX OSS
@@ -55,18 +55,18 @@ backstage:
             options:
               secret: ${BACKEND_SECRET}
               subject: legacy-secret
-        baseUrl: https://backstage.demo.demo.kubrix.dev
+        baseUrl: https://backstage.demo.kubrix.dev
         listen:
           port: 7007
           # Uncomment the following host directive to bind to specific interfaces
           # host: 127.0.0.1
         csp:
           connect-src: ["'self'", 'http:', 'https:']
-          frame-src: ['*.demo.demo.kubrix.dev']
+          frame-src: ['*.demo.kubrix.dev']
           # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
           # Default Helmet Content-Security-Policy values can be removed by setting the key to false
         cors:
-          origin: https://backstage.demo.demo.kubrix.dev
+          origin: https://backstage.demo.kubrix.dev
           methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
           credentials: true
         # This is for local development only, it is not recommended to use this in production
@@ -102,18 +102,18 @@ backstage:
         #   changeOrigin: true
           '/grafana/api':
             # May be a public or an internal DNS
-            target: https://grafana.demo.demo.kubrix.dev
+            target: https://grafana.demo.kubrix.dev
             headers:
               Authorization: Bearer ${GRAFANA_TOKEN}
 
       argocd:
-        baseUrl: https://argocd.demo.demo.kubrix.dev
+        baseUrl: https://argocd.demo.kubrix.dev
         namespacedApps: true
         appLocatorMethods:
           - type: 'config'
             instances:
               - name: kubrixdemo
-                url: https://argocd.demo.demo.kubrix.dev
+                url: https://argocd.demo.kubrix.dev
                 token: ${ARGOCD_AUTH_TOKEN}
 
       # Reference documentation http://backstage.io/docs/features/techdocs/configuration
@@ -149,7 +149,7 @@ backstage:
           oidc:
             development:
               metadataUrl: http://kubrix-keycloak-service.keycloak.svc.cluster.local:8080/realms/kubrix #.well-known/openid-configuration can be ommited
-              callbackUrl: https://backstage.demo.demo.kubrix.dev/api/auth/oidc/handler/frame
+              callbackUrl: https://backstage.demo.kubrix.dev/api/auth/oidc/handler/frame
               clientId: backstage
               clientSecret: ${OIDC_CLIENTSECRET}
               additionalScopes: 'groups'
@@ -174,14 +174,14 @@ backstage:
               - noHashtag
           - title: Central Monitoring
             description: Central Monitoring
-            url: https://grafana.demo.demo.kubrix.dev/
+            url: https://grafana.demo.kubrix.dev/
             image: /homepage/images/monitoring.jpg
             tags:
               - Monitoring
               - Observability
           - title: GitOps CD
             description: Discover kubriX GitOps CD
-            url: https://argocd.demo.demo.kubrix.dev/
+            url: https://argocd.demo.kubrix.dev/
             image: /homepage/images/platforms.jpg
             tags:
               - GitOps
@@ -189,7 +189,7 @@ backstage:
               - argocd
           - title: GitOps Promotion
             description: orchestrate stage-to-stage deployments
-            url: https://kargo.demo.demo.kubrix.dev
+            url: https://kargo.demo.kubrix.dev
             image: /homepage/images/sdk.jpg
             tags:
               - kargo
@@ -197,7 +197,7 @@ backstage:
               - promotion
           - title: Thread Detection
             description: Discover security threats in real time
-            url: https://falco.demo.demo.kubrix.dev
+            url: https://falco.demo.kubrix.dev
             image: /homepage/images/infrastructure.jpg
             tags:
               - falco
@@ -205,14 +205,14 @@ backstage:
               - Regulatory Compliance
           - title: IAM
             description: Identity and Access Management
-            url: https://keycloak.demo.demo.kubrix.dev
+            url: https://keycloak.demo.kubrix.dev
             image: /homepage/images/hubs.jpg
             tags:
               - keycloak
               - sso
           - title: Secret Management
             description: Manage Secrets 
-            url: https://vault.demo.demo.kubrix.dev
+            url: https://vault.demo.kubrix.dev
             image: /homepage/images/apps.jpg
             tags:
               - vault
@@ -260,7 +260,7 @@ backstage:
 
       grafana:
         # Publicly accessible domain
-        domain: https://grafana.demo.demo.kubrix.dev
+        domain: https://grafana.demo.kubrix.dev
 
         # Is unified alerting enabled in Grafana?
         # See: https://grafana.com/blog/2021/06/14/the-new-unified-alerting-system-for-grafana-everything-you-need-to-know/
@@ -319,7 +319,7 @@ backstage:
             rate: 5.5
 
       kubecost:
-        baseUrl: https://kubecost.demo.demo.kubrix.dev/
+        baseUrl: https://kubecost.demo.kubrix.dev/
         sharedNamespaces: kube-system
         queryframes: week,yesterday,month,today,lastweek
         annotationDeploymentName: 'backstage.io/kubernetes-id'

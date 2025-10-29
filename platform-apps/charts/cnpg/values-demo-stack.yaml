@@ -7,7 +7,7 @@ cloudnative-pg:
 ## pgadmin for demopurposes
 pgadmin4:
   enabled: false
-  domainName: .demo.demo.kubrix.dev
+  domainName: .demo.kubrix.dev
   ingress:
     enabled: true
     ingressClassName: nginx
@@ -15,14 +15,14 @@ pgadmin4:
       external-dns.alpha.kubernetes.io/ttl: "60"
       cert-manager.io/cluster-issuer: default-issuer
     hosts:
-      - host: pgadmin.demo.demo.kubrix.dev
+      - host: pgadmin.demo.kubrix.dev
         paths:
           - path: /
             pathType: Prefix
     tls:
       - secretName: pgadmin-server-tls
         hosts:
-          - pgadmin.demo.demo.kubrix.dev
+          - pgadmin.demo.kubrix.dev
   extraConfigmapMounts:
     - name: configmap
       configMap: pgadminconfiglocal

@@ -5,7 +5,7 @@ metadata:
   title: kubevirt-manager
   description: kubevirt Manager UI
   links: 
-    - url: https://kubevirt-manager.demo.demo.kubrix.dev
+    - url: https://kubevirt-manager.demo.kubrix.dev
       title: kubevirt-manager Instance of kubrix
       icon: web
     - url: https://kubevirt-manager.io/

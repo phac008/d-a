@@ -16,12 +16,12 @@ vault:
         external-dns.alpha.kubernetes.io/ttl: "60"
         cert-manager.io/cluster-issuer: default-issuer
       hosts:
-        - host: vault.demo.demo.kubrix.dev
+        - host: vault.demo.kubrix.dev
           paths: []
       tls: 
         - secretName: vault-server-tls
           hosts:
-            - vault.demo.demo.kubrix.dev
+            - vault.demo.kubrix.dev
     extraInitContainers:
       - name: utility-downloader
         image: alpine/curl:latest

@@ -21,4 +21,4 @@ vui:
         tls:
           - secretName: velero-ui-tls
             hosts:
-              - velero-ui.demo.demo.kubrix.dev
+              - velero-ui.demo.kubrix.dev

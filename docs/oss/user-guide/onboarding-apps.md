@@ -9,7 +9,7 @@ For Showcase-Purposes there is an AppSet for "Multi-Stage Apps with Kargo-Pipeli
 * start with your teams name, e.g. `team-1-my-app`
 * have a `app-stages.yaml` in the root folder of your repo
 
-With the scaffolder [template for multi-stage app with kargo pipeline](https://backstage.demo.demo.kubrix.dev/create/templates/default/multi-stage-app-with-kargo-pipeline) you can automatically create such a repo with the predefined example application 'podtato-head'.
+With the scaffolder [template for multi-stage app with kargo pipeline](https://backstage.demo.kubrix.dev/create/templates/default/multi-stage-app-with-kargo-pipeline) you can automatically create such a repo with the predefined example application 'podtato-head'.
 
 ![image](../../img/app-onboarding-1.png)
 

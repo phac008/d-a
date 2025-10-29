@@ -5,7 +5,7 @@ metadata:
   title: ArgoCD
   description: Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. We use ArgoCD for ...
   links:
-    - url: https://argocd.demo.demo.kubrix.dev
+    - url: https://argocd.demo.kubrix.dev
       title: Instance of ArgoCD
       icon: web
     - url: https://argo-cd.readthedocs.io/en/stable/

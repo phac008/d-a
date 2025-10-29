@@ -5,7 +5,7 @@ metadata:
   title: Kubecost
   description: Kubecost 
   links: 
-    - url: https://kubecost.demo.demo.kubrix.dev
+    - url: https://kubecost.demo.kubrix.dev
       title: Kubecost Instance of kubriX
       icon: web
     - url: https://docs.kubecost.com

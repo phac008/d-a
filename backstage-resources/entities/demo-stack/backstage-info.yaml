@@ -9,7 +9,7 @@ metadata:
     - title: Website
       url: https://kubriX.io
     - title: kubriX platform Showcase
-      url: https://backstage.demo.demo.kubrix.dev
+      url: https://backstage.demo.kubrix.dev
   annotations:
     github.com/project-slug: hassavokado/kubrix-ava
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=sx-backstage'
@@ -19,7 +19,7 @@ metadata:
     backstage.io/kubernetes-id: sx-backstage
     backstage.io/adr-location: hassavokado/tree/main/backstage-resources/adr
     grafana/dashboard-selector: "(tags @> 'suXess')"
-    grafana/overview-dashboard: "https://grafana.demo.demo.kubrix.dev/d/k8s_views_ns/kubernetes-views-namespaces?orgId=1&from=now-1h&to=now&var-datasource=default&var-cluster=hassavokado&var-namespace=backstage&var-resolution=30s&var-created_by=$__all&refresh=30s"
+    grafana/overview-dashboard: "https://grafana.demo.kubrix.dev/d/k8s_views_ns/kubernetes-views-namespaces?orgId=1&from=now-1h&to=now&var-datasource=default&var-cluster=hassavokado&var-namespace=backstage&var-resolution=30s&var-created_by=$__all&refresh=30s"
 spec:
   type: service
   owner: kubrix

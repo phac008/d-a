@@ -1,0 +1,8 @@
+clusterType: k8s
+valuesFile: demo-stack
+dnsProvider: AzureDNS
+domain: demo.kubrix-ava-demo.com
+gitRepo: https://github.com/hassavokado/kubrix-ava
+gitRepoOrg: hassavokado
+gitRepoName: kubrix-ava
+gitUser: dummy

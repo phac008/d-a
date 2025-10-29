@@ -38,7 +38,7 @@ spec:
         fqdn:
           title: FQDN
           type: string       
-          default: 'demo.kubrix-ava-demo.com'
+          default: 'demo.demo.kubrix.dev'
     - title: Choose a location
       required:
         - repoUrl

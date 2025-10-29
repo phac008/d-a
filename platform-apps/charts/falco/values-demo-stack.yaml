@@ -33,14 +33,14 @@ falco:
           cert-manager.io/cluster-issuer: default-issuer
         ingressClassName: nginx
         hosts:
-          - host: falco.demo.kubrix-ava-demo.com
+          - host: falco.demo.demo.kubrix.dev
             paths:
               - path: /
                 pathType: Prefix
         tls:
             - secretName: falco-server-tls
               hosts:
-                - falco.demo.kubrix-ava-demo.com
+                - falco.demo.demo.kubrix.dev
     replicaCount: 1
     serviceMonitor:
       enabled: true

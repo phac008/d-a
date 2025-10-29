@@ -28,14 +28,14 @@ loki:
         external-dns.alpha.kubernetes.io/ttl: "60"
         cert-manager.io/cluster-issuer: default-issuer
       hosts:
-        - host: logs-monitoring.demo.kubrix-ava-demo.com
+        - host: logs-monitoring.demo.demo.kubrix.dev
           paths:
             - path: /
               pathType: Prefix
       tls:
         - secretName: loki-gateway-tls
           hosts:
-            - logs-monitoring.demo.kubrix-ava-demo.com
+            - logs-monitoring.demo.demo.kubrix.dev
 
   resultsCache:
     resources:

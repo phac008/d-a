@@ -38,11 +38,11 @@ minio:
       nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
     path: /
     hosts:
-      - minio-console.demo.kubrix-ava-demo.com
+      - minio-console.demo.demo.kubrix.dev
     tls: 
       - secretName: minio-console-tls
         hosts:
-          - minio-console.demo.kubrix-ava-demo.com
+          - minio-console.demo.demo.kubrix.dev
   ingress:
     enabled: true
     ingressClassName: nginx
@@ -52,8 +52,8 @@ minio:
       nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
     path: /
     hosts:
-      - minio.demo.kubrix-ava-demo.com
+      - minio.demo.demo.kubrix.dev
     tls: 
       - secretName: minio-server-tls
         hosts:
-          - minio.demo.kubrix-ava-demo.com
+          - minio.demo.demo.kubrix.dev

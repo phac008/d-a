@@ -1,6 +1,6 @@
 argo-cd:
   global:
-    domain: argocd.demo.kubrix-ava-demo.com
+    domain: argocd.demo.kubrix-dev.dev
 
   configs:
     params:
@@ -126,7 +126,7 @@ argo-cd:
       ingressClassName: nginx
       extraTls:
         - hosts:
-          - argocd.demo.kubrix-ava-demo.com
+          - argocd.demo.kubrix-dev.dev
           # Based on the ingress controller used secret might be optional
           secretName: argocd-server-tls
     extensions:

@@ -4,7 +4,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (322)</h4>
+<h4>Vulnerabilities (311)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -736,6 +736,13 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-37952</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-37957</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -1163,13 +1170,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38208</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38211</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -1212,13 +1212,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38232</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38236</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -1241,13 +1234,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38250</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38264</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -1279,13 +1265,6 @@
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.147-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38311</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -1342,6 +1321,20 @@
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38361</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38369</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -1478,13 +1471,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38473</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.147-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38474</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -1521,13 +1507,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38495</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.147-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38497</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.147-1</td>
@@ -1982,21 +1961,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40110</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40111</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.158-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40118</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.158-1</td>
@@ -2017,24 +1982,10 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40135</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40139</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40140</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.158-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -2129,21 +2080,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40179</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.158-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40186</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.158-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40187</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.158-1</td>
@@ -2168,20 +2105,6 @@
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td>6.1.158-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40201</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.158-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40206</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>perl</code></td>
@@ -2270,7 +2193,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (18)</h4>
+<h4>Vulnerabilities (20)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -2327,6 +2250,20 @@
         <td>CRITICAL</td>
         <td>4.0.2</td>
         <td>2.5.4, 3.0.4, 4.0.4</td>
+    </tr>
+    <tr>
+        <td><code>glob</code></td>
+        <td>CVE-2025-64756</td>
+        <td>HIGH</td>
+        <td>10.4.2</td>
+        <td>11.1.0, 10.5.0</td>
+    </tr>
+    <tr>
+        <td><code>glob</code></td>
+        <td>CVE-2025-64756</td>
+        <td>HIGH</td>
+        <td>10.4.5</td>
+        <td>11.1.0, 10.5.0</td>
     </tr>
     <tr>
         <td><code>jsonpath-plus</code></td>

@@ -14,7 +14,7 @@
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.3.3-4.el9</td>
-        <td></td>
+        <td>2.3.3-5.el9_7</td>
     </tr>
     <tr>
         <td><code>libarchive</code></td>
@@ -370,7 +370,7 @@
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.3.3-4.el9</td>
-        <td></td>
+        <td>2.3.3-5.el9_7</td>
     </tr>
     <tr>
         <td><code>libarchive</code></td>

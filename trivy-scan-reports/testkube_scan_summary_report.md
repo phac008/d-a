@@ -165,7 +165,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/zcube/bitnami-compat-mongodb:6.0.5-debian-11-r64 (debian 11.8)</code></h3>
-<h4>Vulnerabilities (55)</h4>
+<h4>Vulnerabilities (57)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -280,6 +280,13 @@
         <td>2.31-13+deb11u13</td>
     </tr>
     <tr>
+        <td><code>libc-bin</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.31-13+deb11u7</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>libc6</code></td>
         <td>CVE-2024-2961</td>
         <td>HIGH</td>
@@ -299,6 +306,13 @@
         <td>HIGH</td>
         <td>2.31-13+deb11u7</td>
         <td>2.31-13+deb11u13</td>
+    </tr>
+    <tr>
+        <td><code>libc6</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.31-13+deb11u7</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libcom-err2</code></td>

@@ -1,6 +1,6 @@
 
 <h3>Target <code>docker.io/dserio83/velero-api:0.3.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (31)</h4>
+<h4>Vulnerabilities (33)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -52,11 +52,25 @@
         <td>2.36-9+deb12u11</td>
     </tr>
     <tr>
+        <td><code>libc-bin</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>libc6</code></td>
         <td>CVE-2025-4802</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
         <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc6</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libexpat1</code></td>
@@ -385,7 +399,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -429,6 +443,13 @@
         <td>15.2.3</td>
         <td>14.2.34, 15.0.6, 15.1.10, 15.2.7, 15.3.7, 15.4.9, 15.5.8, 15.6.0-canary.59, 16.0.9, 16.1.0-canary.17</td>
     </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>6.2.0</td>
+        <td>7.5.3</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/node_modules/@esbuild/linux-x64/bin/esbuild</code></h3>
@@ -466,7 +487,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/dserio83/velero-watchdog:0.1.8 (debian 12.10)</code></h3>
-<h4>Vulnerabilities (23)</h4>
+<h4>Vulnerabilities (25)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -518,11 +539,25 @@
         <td>2.36-9+deb12u11</td>
     </tr>
     <tr>
+        <td><code>libc-bin</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>libc6</code></td>
         <td>CVE-2025-4802</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
         <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc6</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libexpat1</code></td>
@@ -639,7 +674,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -654,6 +689,13 @@
         <td>CRITICAL</td>
         <td>0.14.0</td>
         <td>0.16.0</td>
+    </tr>
+    <tr>
+        <td><code>pyasn1</code></td>
+        <td>CVE-2026-23490</td>
+        <td>HIGH</td>
+        <td>0.6.1</td>
+        <td>0.6.2</td>
     </tr>
     <tr>
         <td><code>setuptools</code></td>

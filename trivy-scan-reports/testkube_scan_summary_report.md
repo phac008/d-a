@@ -1,6 +1,6 @@
 
 <h3>Target <code>docker.io/kubeshop/testkube-api-server:2.2.6 (alpine 3.20.6)</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (10)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -51,10 +51,38 @@
         <td>2.45.3-r0</td>
         <td>2.45.4-r0</td>
     </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>bin/app</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -72,6 +100,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.25.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.25.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61729</td>
         <td>HIGH</td>
         <td>v1.25.4</td>
@@ -84,7 +126,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/mc</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -116,6 +158,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.3</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.3</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61729</td>
         <td>HIGH</td>
         <td>v1.24.3</td>
@@ -124,7 +180,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/minio</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -156,6 +212,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61729</td>
         <td>HIGH</td>
         <td>v1.24.4</td>
@@ -165,7 +235,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/zcube/bitnami-compat-mongodb:6.0.5-debian-11-r64 (debian 11.8)</code></h3>
-<h4>Vulnerabilities (57)</h4>
+<h4>Vulnerabilities (70)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -189,11 +259,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>dirmngr</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gnupg</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gnupg</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gnupg-l10n</code></td>
@@ -203,11 +287,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gnupg-l10n</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gnupg-utils</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gnupg-utils</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpg</code></td>
@@ -217,11 +315,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpg</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpg-agent</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpg-agent</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpg-wks-client</code></td>
@@ -231,11 +343,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpg-wks-client</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpg-wks-server</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpg-wks-server</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpgconf</code></td>
@@ -245,6 +371,13 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpgconf</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpgsm</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
@@ -252,11 +385,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpgsm</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpgv</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpgv</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>
@@ -511,6 +658,13 @@
         <td>1.9.0-2+deb11u1</td>
     </tr>
     <tr>
+        <td><code>libssl1.1</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>1.1.1w-0+deb11u1</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>libsystemd0</code></td>
         <td>CVE-2023-50387</td>
         <td>HIGH</td>
@@ -546,6 +700,13 @@
         <td></td>
     </tr>
     <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>1.1.1w-0+deb11u1</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>perl-base</code></td>
         <td>CVE-2020-16156</td>
         <td>HIGH</td>
@@ -576,7 +737,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>opt/bitnami/common/bin/render-template</code></h3>
-<h4>Vulnerabilities (21)</h4>
+<h4>Vulnerabilities (23)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -724,6 +885,20 @@
         <td>HIGH</td>
         <td>v1.19.4</td>
         <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.19.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.19.4</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -735,7 +910,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>opt/bitnami/common/bin/wait-for-port</code></h3>
-<h4>Vulnerabilities (21)</h4>
+<h4>Vulnerabilities (23)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -886,6 +1061,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.19.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.19.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61729</td>
         <td>HIGH</td>
         <td>v1.19.4</td>
@@ -894,7 +1083,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>opt/bitnami/common/bin/yq</code></h3>
-<h4>Vulnerabilities (13)</h4>
+<h4>Vulnerabilities (15)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -989,6 +1178,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.20.3</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.20.3</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61729</td>
         <td>HIGH</td>
         <td>v1.20.3</td>
@@ -998,10 +1201,47 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>nats:2.11.6-alpine (alpine 3.22.1)</code></h3>
-<h4>No Vulnerabilities found</h4>
+<h4>Vulnerabilities (4)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+</table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/nats-server</code></h3>
-<h4>Vulnerabilities (3)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1023,6 +1263,20 @@
         <td>HIGH</td>
         <td>v1.24.4</td>
         <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -1035,10 +1289,47 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>natsio/nats-server-config-reloader:0.18.2 (alpine 3.22.0)</code></h3>
-<h4>No Vulnerabilities found</h4>
+<h4>Vulnerabilities (4)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.0-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.0-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.0-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.0-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+</table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/nats-server-config-reloader</code></h3>
-<h4>Vulnerabilities (3)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1060,6 +1351,20 @@
         <td>HIGH</td>
         <td>v1.24.4</td>
         <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
